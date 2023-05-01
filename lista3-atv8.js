@@ -1,0 +1,10 @@
+let n1=Number(prompt("Digite um número"))
+let n2=Number(prompt("Digite outro número"))
+so=n1+n2
+su=n1-n2
+m=n1*n2
+d=n1/n2
+document.write(`${n1}+${n2}=${so}<br>`)
+document.write(`${n1}-${n2}=${su}<br>`)
+document.write(`${n1}x${n2}=${m}<br>`)
+document.write(`${n1}÷${n2}=${d.toFixed(1)}<br>`)
